@@ -21,6 +21,7 @@ public class LoginController {
 	public String viewLogin(Map<String, Object> model) {
 		User user = new User();
 		model.put("userForm", user);
+		System.out.println("welcome");
 		return "LoginForm";
 	}
 
